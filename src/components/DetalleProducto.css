@@ -1,0 +1,70 @@
+.detalle-producto-container {
+    max-width: 800px;
+    margin: 32px auto;
+    padding: 32px;
+    background-color: #2a2a2a;
+    color: #f2f2f2;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+    border: 2px solid #e74c3c;
+}
+
+.detalle-producto-container h1 {
+    color: #e74c3c;
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.detalle-producto-imagen {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto 24px;
+}
+
+.detalle-producto-info {
+    background-color: #333;
+    padding: 24px;
+    border-radius: 8px;
+    border: 1px solid #444;
+}
+
+.detalle-producto-info p {
+    margin: 13px 0;
+    font-size: 18px;
+    color: #f2f2f2;
+}
+
+.detalle-producto-info strong {
+    color: #e74c3c;
+}
+
+.boton-volver {
+    display: inline-block;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 13px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+    margin-top: 24px;
+    text-decoration: none;
+}
+
+.boton-volver:hover {
+    background-color: #c0392b;
+    transform: translateY(-2px);
+}
+
+.boton-volver:active {
+    transform: translateY(0);
+}

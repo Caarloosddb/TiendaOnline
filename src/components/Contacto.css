@@ -1,0 +1,129 @@
+.contacto-container {
+    max-width: 900px;
+    margin: 32px auto;
+    padding: 32px;
+    background-color: #2a2a2a;
+    color: #f2f2f2;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+    border: 1px solid #e74c3c;
+}
+
+.contacto-container h1 {
+    color: #e74c3c;
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.contacto-container p {
+    text-align: center;
+    margin-bottom: 32px;
+    font-size: 18px;
+    color: #bbb;
+}
+
+.informacion-contacto {
+    margin-bottom: 40px;
+    padding: 24px;
+    background-color: #333;
+    border-radius: 8px;
+    border: 1px solid #444;
+}
+
+.informacion-contacto h2 {
+    color: #e74c3c;
+    margin-bottom: 24px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.informacion-contacto p {
+    margin: 13px 0;
+    text-align: left;
+    font-size: 16px;
+    color: #f2f2f2;
+}
+
+.informacion-contacto p strong {
+    color: #e74c3c;
+}
+
+.formulario-contacto {
+    display: flex;
+    width: 835px;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px;
+    background-color: #333;
+    border-radius: 8px;
+    border: 1px solid #444;
+}
+
+.formulario-contacto h2 {
+    color: #e74c3c;
+    margin-bottom: 24px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.form-group label {
+    font-weight: bold;
+    font-size: 18px;
+    color: #f2f2f2;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 13px;
+    border: 1px solid #e74c3c;
+    border-radius: 8px;
+    background-color: #444;
+    color: #f2f2f2;
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #c0392b;
+    box-shadow: 0 0 8px rgba(231, 76, 60, 0.6);
+    outline: none;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+.boton-enviar {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    align-self: center;
+    width: 100%;
+    max-width: 200px;
+}
+
+.boton-enviar:hover {
+    background-color: #c0392b;
+    transform: translateY(-2px);
+}
+
+.boton-enviar:active {
+    transform: translateY(0);
+}
